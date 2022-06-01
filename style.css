@@ -10,7 +10,6 @@ body{
 .header {
    background-color: rgb(0, 0, 0); 
    min-height: 200px;
-   position:fixed;
 }
 .city{
     color: white;
@@ -32,6 +31,8 @@ body{
 }
 .nav{
     min-height: 70px;
+    position:fixed;
+    z-index: 100;
 }
 .information{
     min-height: 500px;
