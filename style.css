@@ -1,0 +1,402 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(0, 0, 0); 
+}
+
+.header {
+   background-color: rgb(0, 0, 0); 
+   min-height: 200px;
+}
+.city{
+    color: white;
+    font-family: "Segoe UI Light", sans-serif;
+}
+.num{
+    color: white;
+    font-family: "Segoe UI Light", sans-serif;
+}
+.img-fluid{
+    left: 10px;
+    top: 30px;
+}
+.nav-link{
+    border-bottom: 1px solid;
+    border-bottom-color: rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    font-family: "Segoe UI Light", sans-serif;
+}
+.nav{
+    min-height: 70px;
+}
+.information{
+    min-height: 500px;
+    color: white;
+    font-family: "Segoe UI Light", sans-serif;
+}
+.color{
+    background: -webkit-linear-gradient(180deg, rgb(0, 0, 0) 20%, rgb(255, 236, 0) 100%);
+    background: -moz-linear-gradient(180deg, rgb(0, 0, 0) 20%, rgb(255, 236, 0) 100%);
+    background: linear-gradient(180deg, rgb(0, 0, 0) 20%, rgb(255, 236, 0) 100%);
+    min-height: 500px;
+}
+.color-page2{
+    background: -webkit-linear-gradient(0deg, rgb(0, 0, 0) 20%, rgb(255, 236, 0) 100%);
+    background: -moz-linear-gradient(0deg, rgb(0, 0, 0) 20%, rgb(255, 236, 0) 100%);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 20%, rgb(255, 236, 0) 100%);
+}
+.mas{
+    color: rgb(0, 0, 0);
+}
+.f-m, .s-m
+{
+    max-width: 400px;
+}
+
+.list-group-item{
+    margin-bottom: 50px;
+    max-width: 400px;
+    background-color: #ffffffb5;
+}
+.fm{
+    margin-right: 10px;
+}
+.sm{
+    margin-left: 10px;
+}
+.name-mas, .opis-mas{
+    color: white;
+    font-family: "Segoe UI Light", sans-serif;
+}
+.styles-tattoo-old{
+    margin-top: 250px;
+    color: white;
+    font-family: "Segoe UI Light", sans-serif;
+}
+.styles-tattoo-dot{
+    margin-top: 100px;
+    color: white;
+    font-family: "Segoe UI Light", sans-serif;
+}
+.styles-tattoo-hand{
+    margin-top: 100px;
+    color: white;
+    font-family: "Segoe UI Light", sans-serif;
+}
+.esc-old1, .esc-old2, .esc-old3{
+    max-width: 330px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.esc-hand1, .esc-hand2{
+    max-width: 330px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.old-school{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.handpouk{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.dot-work{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.esc-dot1, .esc-dot2, .esc-dot3{
+    max-width: 330px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.gal-men{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: "Segoe UI Light", sans-serif;
+    border-bottom: 2px solid;
+    border-bottom-color: rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    font-family: "Segoe UI Light", sans-serif;
+}
+.tattoo-ph{
+    max-width: 500px;
+}
+   
+@media screen and (max-width: 2000px){
+    .city, .num{
+        font-size: 25px;
+    }
+    .img-fluid{
+        max-width: 130px;
+    }
+    .icons{
+        max-width: 450px;
+    }
+    .nav-link{
+        font-size: 30px;
+    }
+    .nav-item{
+        margin-right: 20px;
+    }
+    .information{
+        margin-left: 63px;
+    }
+    .big-about{
+        font-size: 30px;
+    }
+    .text-about{
+        font-size: 25px;
+    }
+    .mas{
+        font-size: 30px;
+        margin-left: 63px;
+    }
+    .list-group{
+        margin-left: 63px;
+        margin-right: 50px;
+    }
+    .name-mas{
+        font-size: 30px;
+    }
+    .opis-mas{
+        font-size: 20px;
+    }
+    .tattoo-ph{
+        max-width: 400px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .city, .num{
+        font-size: 20px;
+    }
+    .img-fluid{
+        max-width: 130px;
+    }
+    .icons{
+        max-width: 400px;
+    }
+    .nav-link{
+        font-size: 25px;
+        margin-right: 17px;
+    }
+    .nav-item{
+        margin-right: 17px;
+    }
+    .information{
+        margin-left: 45px;
+    }
+    .big-about{
+        font-size: 25px;
+    }
+    .text-about{
+        font-size: 20px;
+    }
+    .mas{
+        font-size: 25px;
+    }
+    .list-group{
+        margin-left: 45px;
+    }
+    .f-m, .s-m{
+    max-width: 300px;
+    }
+    .name-mas{
+        font-size: 25px;
+    }
+    .opis-mas{
+        font-size: 20px;
+    }
+    .tattoo-ph{
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 992px){
+    .city, .num{
+        font-size: 20px;
+    }
+    .city{
+        text-align: center;
+    }
+    .img-fluid{
+        max-width: 100px;
+    }
+    .icons{
+        max-width: 370px;
+    }
+    .nav-link{
+        font-size: 20px;
+    }
+    .nav-item{
+        margin-right: 15px;
+    }
+    .nav{
+        min-height: 100px;
+    }
+    .information{
+        margin-left: 35px;
+        min-height: 400px;
+    }
+    .big-about{
+        font-size: 20px;
+    }
+    .text-about{
+        font-size: 20px;
+    }
+    .mas{
+        font-size: 20px;
+    }
+    .list-group{
+        margin-left: 35px;
+    }
+    .f-m, .s-m{
+        max-width: 270px;
+    }
+    .name-mas{
+        font-size: 20px;
+    }
+    .opis-mas{
+        font-size: 15px;
+    }
+    .esc-old1, .esc-old2, .esc-old3{
+        max-width: 240px;
+    }
+    .esc-dot1, .esc-dot2, .esc-dot3{
+        max-width: 240px;
+    }
+    .esc-hand1, .esc-hand2{
+        max-width: 240px;
+    }
+    .tattoo-ph{
+        max-width: 400px;
+    }
+}
+@media screen and (max-width: 768px){
+    .city, .num{
+        font-size: 18px;
+    }
+    .city{
+        text-align: center;
+    }
+    .img-fluid{
+        max-width: 100px;
+    }
+    .icons{
+        max-width: 350px;
+    }
+    .nav-link{
+        font-size: 20px;
+    }
+    .nav-item{
+        margin-right: 12px;
+    }
+    .nav{
+        min-height: 100px;
+    }
+    .information{
+        margin-left: 25px;
+        margin-right: 15px;
+        min-height: 350px;
+    }
+    .big-about{
+        font-size: 20px;
+    }
+    .text-about{
+        font-size: 18px;
+    }
+    .mas{
+        font-size: 20px;
+    }
+    .list-group{
+        margin-left: 25px;
+    }
+    .f-m, .s-m{
+        max-width: 250px;
+        margin-left: 20px;
+    }
+    .name-mas{
+        font-size: 20px;
+    }
+    .opis-mas{
+        font-size: 10px;
+    }
+    .esc-old1, .esc-old2, .esc-old3{
+        max-width: 300px;
+    }
+    .esc-dot1, .esc-dot2, .esc-dot3{
+        max-width: 300px;
+    }
+    .esc-hand1, .esc-hand2{
+        max-width: 300px;
+    }
+    .tattoo-ph{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 576px){
+    .city, .num{
+        font-size: 18px;
+    }
+    .city{
+        text-align: center;
+    }
+    .img-fluid{
+        max-width: 80px;
+    }
+    .icons{
+        max-width: 270px;
+    }
+    .nav-link{
+        font-size: 17px;
+    }
+    .nav-item{
+        margin-right: 10px;
+    }
+    .nav{
+        min-height: 100px;
+    }
+    .information{
+        margin-left: 20px;
+        min-height: 300px;
+        margin-right: 15px;
+    }
+    .big-about{
+        font-size: 20px;
+    }
+    .text-about{
+        font-size: 18px;
+    }
+    .mas{
+        font-size: 20px;
+    }
+    .list-group{
+        margin-left: 20px;
+    }
+    .f-m, .s-m{
+        max-width: 230px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+    .name-mas{
+        font-size: 20px;
+    }
+    .opis-mas{
+        font-size: 15px;
+    }
+    .esc-old1, .esc-old2, .esc-old3{
+        max-width: 300px;
+    }
+    .esc-dot1, .esc-dot2, .esc-dot3{
+        max-width: 300px;
+    }
+    .esc-hand1, .esc-hand2{
+        max-width: 300px;
+    }
+    .tattoo-ph{
+        max-width: 100%;
+    }
+}
